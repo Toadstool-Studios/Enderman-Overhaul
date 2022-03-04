@@ -61,6 +61,7 @@ public class EndermanTypes {
             .setAnimation(modLoc("animations/enderman.animation.json"))
             .addAttribute(Attributes.KNOCKBACK_RESISTANCE, 0.5)
             .build();
+
     public static final EndermanType SWAMP = new EndermanType.Builder()
             .setTexture(modLoc("textures/entity/swamp_enderman.png"))
             .setGlowingTexture(modLoc("textures/entity/swamp_enderman_glow.png"))
